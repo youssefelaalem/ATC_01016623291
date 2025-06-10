@@ -48,16 +48,6 @@ npm install
 
 yarn
 
-⚙️ Environment Variables
-Create a .env file inside the server folder with the following:
-
-env
-Copy
-Edit
-PORT=8000
-MONGO_URL=mongodb+srv://youssefelaalem82:youssef123@cluster0.3tqxtme.mongodb.net/eventsApp
-JWT_SECRET_KEY=1wko1kwo1w1kwo1kwo1kwk1wok1
-
 ▶️ Run the Server
 bash
 Copy
@@ -81,15 +71,7 @@ npm install
 
 yarn
 🔧 Configure API Base URL
-Create a .env file inside the client folder:
 
-env
-Copy
-Edit
-VITE_API_BASE_URL=http://localhost:8000/api
-VITE_SUPABASE_URL=https://mfdiwbvuazycliilmkdw.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1mZGl3YnZ1YXp5Y2xpaWxta2R3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzkxOTU0ODcsImV4cCI6MjA1NDc3MTQ4N30.SvnF0k9spac5-lf5MgZQAO-trjkQl-Q5lkZRO8e4N88
-Make sure to use this variable for your API requests inside the app.
 
 ▶️ Run the React App
 bash
